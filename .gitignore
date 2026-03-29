@@ -1,7 +1,7 @@
 # Dependencies
 node_modules/
 
-# Build artifacts (dist/ is intentionally NOT ignored — it's committed)
+# Build artifacts (dist/ is intentionally NOT ignored — it's committed) 
 coverage/
 
 # npm pack output
