@@ -1,0 +1,60 @@
+{
+  "name": "flexdate",
+  "version": "1.0.0",
+  "description": "Parse any date string, just works. No moment.js, no config, tiny and fast.",
+  "keywords": [
+    "date",
+    "parse",
+    "date-parser",
+    "natural-language",
+    "date-format",
+    "relative-date",
+    "humanize",
+    "moment",
+    "moment-alternative",
+    "date-utils",
+    "timezone",
+    "ordinal",
+    "flexdate",
+    "danuzz"
+  ],
+  "homepage": "https://github.com/Mova-Nest/flexdate#readme",
+  "bugs": {
+    "url": "https://github.com/Mova-Nest/flexdate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mova-Nest/flexdate.git"
+  },
+  "license": "MIT",
+  "author": "@DanuZz",
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "lib/",
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "build": "node scripts/build-umd.js",
+    "test": "node test/index.test.js && node test/advanced.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
